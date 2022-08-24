@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Poppins Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <!-- Render Normalize -->
+   <link rel="stylesheet" href="styles/normalize.css">
+   <!-- Main CSS File -->
+   <link rel="stylesheet" href="styles/main.css">
+   <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+   <title>Frontend Mentor || Intro component with sign-up form</title>
+</head>
+
+<body>
+   <main>
+      <div class="container">
+         <div class="content">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+               understanding how developers think is invaluable.</p>
+         </div>
+         <div class="form-div">
+            <div class="form-head">
+               <h3>Try it free 7 days <span>then $20/mo. thereafter</span></h3>
+            </div>
+            <form action="">
+               <input type="text" name="first-name" placeholder="First Name">
+               <p class="message msg-first">First Name Cannot Be Empty</p>
+               <input type="text" name="last-name" placeholder="Last Name">
+               <p class="message msg-last">Lat Name Cannot Be Empty</p>
+               <input type="text" name="email" placeholder="Email">
+               <p class="message msg-email">Looks like this is not an Email</p>
+               <input type="password" name="password" placeholder="Passowrd">
+               <p class="message msg-password">Passowrd Cannot Be Empty</p>
+               <input type="submit" value="claim your free trial">
+               <p class="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+            </form>
+         </div>
+      </div>
+   </main>
+   <script src="main.js"></script>
+</body>
+
+</html>
